@@ -1,0 +1,25 @@
+@import "utilities/variables";
+
+header{
+    background-color: $color-principal;
+    width: 300px;
+    box-shadow: 1px black;
+
+    h1{
+        color: black;
+        font-size: 20px;
+    }
+    nav{
+        ul{
+            justify-content: center;
+            li{
+                background-color: yellow;
+                &:hover{
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}
+
+
